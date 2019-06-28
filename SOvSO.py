@@ -65,7 +65,7 @@ kcn = {"autojoin": False,"Members":5,}
 sets = {
     "l":True, 
       "c":True, 
-      "cm":"AUTO LIKE FOR : ★ʄທയஆടஷະ★",  
+      "cm":"AUTO LIKE FOR : SOvSO",  
     "winvite": False,
     "wblacklist": False,
     "tagsticker": False,
@@ -1191,11 +1191,11 @@ async def maxgieBot(op):
                       apalo["Talkblacklist"] = []
                       duc1(to, "🌟สำเร็จ🌟")
                 
-                elif text.lower() == "คทดำ":
+                elif text.lower() == "คนดำ":
                     if msg._from in maxgieMID:
                         if apalo["Talkblacklist"] == []:
                             maxgie.unsendMessage(msg_id)
-                            duc1(to, "🌟ไม่มีคท.คนติดดำ🌟")
+                            duc1(to, "🌟ไม่มีคน.คนติดดำ🌟")
                         else:
                             for bl in apalo["Talkblacklist"]:
                                 maxgie.sendMessage(to, text=None, contentMetadata={'mid': bl}, contentType=13)
